@@ -16,7 +16,7 @@ print(alphabet[0:3]) #первые 3 элемента
 print(alphabet[:3]) #not diff
 print(alphabet[-3:]) #the last 3 elements
 #[start:end:step]
-print(alphabet[::2]) #choosing like bruh 1 no 3
+print(alphabet[::2]) #choosing like bruh 1 no 3 через одну
 print(alphabet[::-1]) #like backwards
 
 
