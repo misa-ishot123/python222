@@ -13,7 +13,7 @@
 q1 = input("In what year was the first vid published of orel and reshka?\n"
            "a) 2018, b) 2011, c) 2012, c) 2009\n"
            "--> ").strip().lower()
-if q1 == "b"
+if q1 == "b":
     print("Correct")
 else:
     print("No, incorrect the right answer is B")
