@@ -18,3 +18,23 @@ if q1 == "b":
 else:
     print("No, incorrect the right answer is B")
     quit()
+
+q2 = input("2 + 2 rovno?\n"
+           "a) 4, b) 9, c) 2, c) 7\n"
+           "--> ").strip().lower()
+if q2 == "a":
+    print("Correct")
+else:
+    print("No, incorrect")
+    quit()
+
+q3 = input("how many cookies can misa eat??\n"
+           "a) Everything, b) depends from who, c) 5 , d) no i'm not eating that)\n"
+           "--> ").strip().lower()
+if q3 == "b":
+    print("Correct")
+else:
+    print("No, incorrect")
+    quit()
+
+
