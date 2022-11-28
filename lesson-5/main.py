@@ -25,8 +25,8 @@ except ValueError:
 except ZeroDivisionError:
     print("You can't divide by 0")
 
-    try:
+try:
         number = int(input("Digit: "))
         x = 5 / number
-except Exception
+except Exception:
     print("Oof, you got it wrong, don't turn emo pls")
